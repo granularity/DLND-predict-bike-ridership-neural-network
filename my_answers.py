@@ -16,7 +16,7 @@ class NeuralNetwork(object):
                                        (self.hidden_nodes, self.output_nodes))
         self.lr = learning_rate
         
-        #### TODO: Set self.activation_function to your implemented sigmoid function ####
+        #### COMPLETED: Set self.activation_function to your implemented sigmoid function ####
         #
         # Note: in Python, you can define a function with a lambda expression,
         # as shown below.
@@ -63,11 +63,11 @@ class NeuralNetwork(object):
         '''
         #### Implement the forward pass here ####
         ### Forward pass ###
-        # TODO: Hidden layer - Replace these values with your calculations.
+        # COMPLETED: Hidden layer - Replace these values with your calculations.
         hidden_inputs = None # signals into hidden layer
         hidden_outputs = None # signals from hidden layer
 
-        # TODO: Output layer - Replace these values with your calculations.
+        # COMPLETED: Output layer - Replace these values with your calculations.
         final_inputs = None # signals into final output layer
         final_outputs = None # signals from final output layer
         
@@ -87,13 +87,13 @@ class NeuralNetwork(object):
         #### Implement the backward pass here ####
         ### Backward pass ###
 
-        # TODO: Output error - Replace this value with your calculations.
+        # COMPLETED: Output error - Replace this value with your calculations.
         error = None # Output layer error is the difference between desired target and actual output.
         
-        # TODO: Calculate the hidden layer's contribution to the error
+        # COMPLETED: Calculate the hidden layer's contribution to the error
         hidden_error = None
         
-        # TODO: Backpropagated error terms - Replace these values with your calculations.
+        # COMPLETED: Backpropagated error terms - Replace these values with your calculations.
         output_error_term = None
         
         hidden_error_term = None
@@ -126,11 +126,11 @@ class NeuralNetwork(object):
         '''
         
         #### Implement the forward pass here ####
-        # TODO: Hidden layer - replace these values with the appropriate calculations.
+        # COMPLETED: Hidden layer - replace these values with the appropriate calculations.
         hidden_inputs = None # signals into hidden layer
         hidden_outputs = None # signals from hidden layer
         
-        # TODO: Output layer - Replace these values with the appropriate calculations.
+        # COMPLETED: Output layer - Replace these values with the appropriate calculations.
         final_inputs = None # signals into final output layer
         final_outputs = None # signals from final output layer 
         
