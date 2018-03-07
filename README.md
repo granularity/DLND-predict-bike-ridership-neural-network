@@ -8,4 +8,4 @@ I implemented forward pass through the network, setting the hyperparameters, the
 The goal was to tune the hyperparameters to minimize training loss while not overfitting the data. In the final step, the neural network was compared for accuracy against the prediction. 
 
 ### My Project Submission
-[Jupyter Notebook](https://github.com/granularity/neural-network-bike-sharing-project/blob/master/Your_first_neural_network.ipynb) with [class NeuralNetwork(object)](https://github.com/granularity/neural-network-bike-sharing-project/blob/master/my_answers.py) settings and parameters here.
+[Jupyter Notebook](/Your_first_neural_network.ipynb) with [class NeuralNetwork(object)](/my_answers.py) settings and parameters here.
